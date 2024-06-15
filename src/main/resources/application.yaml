@@ -1,0 +1,67 @@
+server:
+  port: 9000
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:NTF-marketplace/config.git
+          ignoreLocalSshSettings: true
+          privateKey: |
+            -----BEGIN RSA PRIVATE KEY-----
+            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
+            -----END RSA PRIVATE KEY-----
+  main:
+    allow-bean-definition-overriding: true
+logging:
+  level:
+    org.springframework.security: DEBUG
