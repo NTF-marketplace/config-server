@@ -60,6 +60,7 @@ spring:
             3/u1cmvtw3ND/Q5PArbViYfko2EqaoW6VIDUgr6dOiafP/GpqMhyxJVHglzWCy6D
             qO1EmT10Cf4gSUALVTyacO8Dnb3PAHCayGlSQCMQYFGkvIZhKKurINSrAHiX
             -----END RSA PRIVATE KEY-----
+          search-paths: "{application}"
   main:
     allow-bean-definition-overriding: true
 logging:
